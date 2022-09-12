@@ -1,0 +1,30 @@
+body{
+    color:black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* fazer background */
+}
+
+.container{
+    width: 80%;
+    background-color: aqua;
+    margin-left: 10%;
+
+}
+
+.mainav{
+    background-color: blue;
+    color: darkred;
+
+ }
+
+ .mainav li{
+    display: inline;
+    padding: 5% 5%;
+ }
+
+ .mainav li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+ }
