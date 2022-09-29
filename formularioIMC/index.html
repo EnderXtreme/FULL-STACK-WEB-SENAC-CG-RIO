@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEU IMC</title>
+</head>
+<body>
+    <form name=form1 onsubmit="imc()">
+        <label> Informe o nome : </label>
+        <input type="text" name="nome" required>
+        <br><br>
+        <label> Informe a data de nascimento (apenas números) : </label>
+        <input type="date" name="datanascimento" required>
+        <br><br>
+        <label> Informe a altura (metros) : </label>
+        <input type="text" name="altura" required>
+        <br><br>
+        <label> Informe o peso (quilos) : </label>
+        <input type="text" name="peso" required>
+        <br><br>
+        <input type="submit" value="CONFIRMAR">
+        <input type="reset" value="LIMPAR">
+</body>
+<script src="funcaoimc.js"></script>
+</html>
